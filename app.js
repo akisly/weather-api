@@ -4,7 +4,7 @@ const request = require('request');
 
 const app = express();
 
-const apiKey = 'ad289972680c997bc611653cc80825c6';
+const apiKey = '***';
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 app.use(express.static('public'));
